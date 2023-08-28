@@ -147,7 +147,7 @@ namespace PasteAsFile
             MessageBox.Show(msg, "Paste As File Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        #region Hotkey
+        #region ShortcutKey
         private void frmMain_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape || (e.Control && e.KeyCode == Keys.W))
