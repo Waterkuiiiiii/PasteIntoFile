@@ -131,6 +131,11 @@ namespace PasteAsFile
             Process.Start("http://twitter.com/EslaMx7");
         }
 
+        private void lblWaterk_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Waterkuiiiiii");
+        }
+
         private void lblHelp_Click(object sender, EventArgs e)
         {
             string msg = "Paste Into File helps you paste any text or images in your system clipboard into a file directly instead of creating new file yourself";
@@ -138,6 +143,7 @@ namespace PasteAsFile
             msg += "\nto Unregister the application use this argument : /unreg\n";
             msg += "\nTo change the format of the default filename, use this argument: /filename yyyy-MM-dd_HHmm\n";
             msg += "\n--------------------\nSend Feedback to : eslamx7@gmail.com\n\nThanks :)";
+            msg += "\n--------------------\nThe Dark Mode is modified by Waterkuiiiiii\n";
             MessageBox.Show(msg, "Paste As File Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
