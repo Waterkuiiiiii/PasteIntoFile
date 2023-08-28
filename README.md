@@ -1,5 +1,5 @@
 # Forked from [here](https://github.com/EslaMx7/PasteIntoFile)
-## 📢 Dark Mode Version Released: [Info & Download]() 🔥
+## 📢 Dark Mode Version Released: [Info & Download](https://github.com/Waterkuiiiiii/PasteIntoFile/releases) 🔥
 ---
 # Paste Into File
 
@@ -19,7 +19,7 @@ choco install pasteintofile
 
 1. Make sure you have _.NET Framework 4.5+_ installed in your system. (_Included in Windows 10_)
 
-2. Download the executable from [here]() and install it.
+2. Download the executable from [here](https://github.com/Waterkuiiiiii/PasteIntoFile/releases) and install it.
 
 ## Usage
 
