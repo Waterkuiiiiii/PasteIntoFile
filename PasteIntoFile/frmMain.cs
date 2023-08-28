@@ -133,7 +133,7 @@ namespace PasteAsFile
 
         private void lblWaterk_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/Waterkuiiiiii");
+            Process.Start("https://github.com/Waterkuiiiiii/PasteIntoFile");
         }
 
         private void lblHelp_Click(object sender, EventArgs e)
