@@ -143,19 +143,25 @@ namespace PasteAsFile
             msg += "\nto Unregister the application use this argument : /unreg\n";
             msg += "\nTo change the format of the default filename, use this argument: /filename yyyy-MM-dd_HHmm\n";
             msg += "\n--------------------\nSend Feedback to : eslamx7@gmail.com\n\nThanks :)";
-            msg += "\n--------------------\nThe Dark Mode is modified by Waterkuiiiiii\n";
+            msg += "\n--------------------\nThis Application is modified by Waterkuiiiiii\n";
             MessageBox.Show(msg, "Paste As File Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-
         }
 
-        private void txtFilename_KeyPress(object sender, KeyPressEventArgs e)
+        #region Hotkey
+        private void frmMain_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Enter)
+            if (e.KeyCode == Keys.Escape || (e.Control && e.KeyCode == Keys.W))
+            {
+                Application.Exit();
+                e.SuppressKeyPress = true; // stop "Ding" sound
+            }
+
+            if (e.KeyCode == Keys.Enter)
             {
                 btnSave_Click(sender, null);
+                e.SuppressKeyPress = true;
             }
         }
+        #endregion
     }
 }

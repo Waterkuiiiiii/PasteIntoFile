@@ -16,7 +16,7 @@ namespace PasteAsFile
 		[STAThread]
 		static void Main(string[] args)
 		{
-			Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			if (args.Length>0)
 			{
